@@ -1,0 +1,159 @@
+/* =========================================================
+   Intelligent Study Assistant - Custom Theme & Modern Styles
+   ========================================================= */
+
+/* Hero Banner & App Title */
+.main-header {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #9333ea 100%);
+    color: white;
+    padding: 1.8rem 2.2rem;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.3);
+}
+
+.main-header h1 {
+    color: #ffffff !important;
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    letter-spacing: -0.5px;
+}
+
+.main-header p {
+    color: #e0e7ff !important;
+    font-size: 1.05rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
+}
+
+/* Metric / Stat Cards */
+.metric-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(229, 231, 235, 0.2);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Flashcard Container Styling */
+.flashcard-box {
+    background: linear-gradient(145deg, #ffffff, #f9fafb);
+    border: 2px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 2.2rem;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin: 1.2rem 0;
+}
+
+.flashcard-category {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.flashcard-status {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.flashcard-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+}
+
+.flashcard-tip {
+    font-size: 0.85rem;
+    color: #9ca3af;
+    font-style: italic;
+}
+
+/* Quiz Card Styling */
+.quiz-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.badge-pill {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.badge-indigo {
+    background-color: #e0e7ff;
+    color: #4338ca;
+}
+
+.badge-green {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.badge-yellow {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+/* Pomodoro Display */
+.pomodoro-clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #4f46e5;
+    background: #f3f4f6;
+    border-radius: 16px;
+    padding: 1.2rem 2rem;
+    margin: 1rem auto;
+    width: fit-content;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
